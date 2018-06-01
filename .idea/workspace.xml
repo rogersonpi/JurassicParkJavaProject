@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fae92eb7-565d-4ddf-8c13-3c78ab354bd6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="fae92eb7-565d-4ddf-8c13-3c78ab354bd6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -24,7 +22,7 @@
       <file leaf-file-name="DinosaurTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DinosaurTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
+            <state relative-caret-position="252">
               <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -33,12 +31,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Park.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ParkTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ParkTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaddockTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Park.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Park.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Paddock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Paddock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <folding>
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TRexEnclosure.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TRexEnclosure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <folding>
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,7 +104,7 @@
       <file leaf-file-name="Dinosaur.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
+            <state relative-caret-position="252">
               <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding>
                 <element signature="e#251#252#0" expanded="true" />
@@ -71,8 +119,8 @@
       <file leaf-file-name="TRex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TRex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -387,6 +435,9 @@
         <option value="$PROJECT_DIR$/src/main/java/TRex.java" />
         <option value="$PROJECT_DIR$/src/test/java/DinosaurTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinosaur.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Paddock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TRexEnclosure.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PaddockTest.java" />
       </list>
     </option>
   </component>
@@ -476,7 +527,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DinosaurTest.canGetDiet">
+  <component name="RunManager" selected="JUnit.PaddockTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -558,6 +609,46 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="PaddockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JurassicParkJava_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PaddockTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PaddockTest.canAddDinosaur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JurassicParkJava_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PaddockTest" />
+      <option name="METHOD_NAME" value="canAddDinosaur" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -618,16 +709,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.DinosaurTest.canGetName" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.DinosaurTest.isAbleToEat" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.DinosaurTest.canGetDiet" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PaddockTest.canAddDinosaur" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PaddockTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DinosaurTest.canGetDiet" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DinosaurTest.isAbleToEat" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DinosaurTest.canGetName" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PaddockTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PaddockTest.canAddDinosaur" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DinosaurTest.canGetDiet" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DinosaurTest.isAbleToEat" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DinosaurTest.canGetName" />
       </list>
     </recent_temporary>
   </component>
@@ -648,14 +743,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DinosaurTest_canGetDiet - 2018.06.01 at 13h 50m 25s.xml">
-      <configuration name="DinosaurTest.canGetDiet" configurationId="JUnit" />
+    <history-entry file="PaddockTest - 2018.06.01 at 14h 46m 11s.xml">
+      <configuration name="PaddockTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DinosaurTest_canGetName - 2018.06.01 at 11h 39m 12s.xml">
-      <configuration name="DinosaurTest.canGetName" configurationId="JUnit" />
+    <history-entry file="PaddockTest - 2018.06.01 at 14h 47m 15s.xml">
+      <configuration name="PaddockTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DinosaurTest_isAbleToEat - 2018.06.01 at 11h 41m 56s.xml">
-      <configuration name="DinosaurTest.isAbleToEat" configurationId="JUnit" />
+    <history-entry file="PaddockTest - 2018.06.01 at 14h 50m 29s.xml">
+      <configuration name="PaddockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaddockTest - 2018.06.01 at 14h 56m 33s.xml">
+      <configuration name="PaddockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaddockTest_canAddDinosaur - 2018.06.01 at 14h 46m 52s.xml">
+      <configuration name="PaddockTest.canAddDinosaur" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaddockTest_canAddDinosaur - 2018.06.01 at 14h 49m 44s.xml">
+      <configuration name="PaddockTest.canAddDinosaur" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaddockTest_canAddDinosaur - 2018.06.01 at 14h 52m 02s.xml">
+      <configuration name="PaddockTest.canAddDinosaur" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaddockTest_canAddDinosaur - 2018.06.01 at 14h 54m 07s.xml">
+      <configuration name="PaddockTest.canAddDinosaur" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaddockTest_canAddDinosaur - 2018.06.01 at 14h 55m 20s.xml">
+      <configuration name="PaddockTest.canAddDinosaur" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaddockTest_canAddDinosaur - 2018.06.01 at 14h 56m 27s.xml">
+      <configuration name="PaddockTest.canAddDinosaur" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -663,14 +779,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -695,7 +811,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -707,17 +825,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Paddock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Park.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TRex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
+        <state relative-caret-position="252">
           <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding>
             <element signature="e#251#252#0" expanded="true" />
@@ -728,9 +865,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TRexEnclosure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DinosaurTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
+        <state relative-caret-position="252">
           <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -738,10 +898,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Park.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ParkTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding />
         </state>
       </provider>
