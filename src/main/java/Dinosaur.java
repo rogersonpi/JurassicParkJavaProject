@@ -5,7 +5,6 @@ public abstract class Dinosaur {
     DietType diet;
 
 
-
     public Dinosaur(String name, DietType diet){
 
         this.name = name;
