@@ -12,6 +12,9 @@ public class ParkTest {
     @Test
     public void canAddPaddock(){
 
+        //The one where a paddock is added to the park
+        //The one where a new park is created
+
         trexEnclosure = new TRexEnclosure();
         park = new Park();
         park.addPaddocks(trexEnclosure);
@@ -20,6 +23,8 @@ public class ParkTest {
 
 
     }
+
+
 
 
 }

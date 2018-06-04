@@ -7,11 +7,16 @@ public class DinosaurTest {
     TRex trex;
 
     public DinosaurTest(){
-    this.trex = new TRex("Bill", DietType.HERBIVORE);}
+    this.trex = new TRex("Bill", DietType.CARNIVORE);}
+
+    //The one where a dinosaur is created.
+    //The one where a specific species of dinosaur is created.
+    //The one where a Herbivore type is created.
     @Test
-    public void canGetName(){
+    public void canGetName() {
 
         assertEquals("Bill", trex.getName());
+
     }
 
     @Test
@@ -20,10 +25,12 @@ public class DinosaurTest {
         assertEquals(true, trex.feedDinosaur());
     }
 
+
+    //t is possible to get enum type from instance of a dinosaur
     @Test
     public void canGetDiet(){
 
 
-        assertEquals(DietType.HERBIVORE, trex.getDietType());
+    assertEquals(DietType.CARNIVORE, trex.getDietType());
     }
 }
