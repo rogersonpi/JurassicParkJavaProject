@@ -25,6 +25,13 @@ import java.util.ArrayList;
 
 
         }
+
+        public boolean dinosaurHasBeenFed(Dinosaur dinosaur){
+
+            return dinosaur.fed;
+        }
+
+
     }
 
 

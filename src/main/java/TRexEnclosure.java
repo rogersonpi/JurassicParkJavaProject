@@ -2,8 +2,7 @@ import java.util.ArrayList;
 
 public class TRexEnclosure extends Paddock {
 
-    Dinosaur dinoInTransit;
-    Boolean fed;
+
 
     ArrayList<Dinosaur> dinosaurs;
 

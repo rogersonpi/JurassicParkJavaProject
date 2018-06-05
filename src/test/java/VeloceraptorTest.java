@@ -20,6 +20,8 @@ public class VeloceraptorTest {
 
     }
 
+    //The one where a veloceraptor is able to eat.
+
     @Test
     public void isAbleToEat(){
 
@@ -31,11 +33,8 @@ public class VeloceraptorTest {
     @Test
     public void canGetDiet(){
 
-
         assertEquals(DietType.CARNIVORE, veloceraptor.getDietType());
     }
-
-
 
 }
 

@@ -22,4 +22,30 @@ public class DiplodicusEnclosure extends Paddock {
 
 
     }
+
+
+
+        public String feedDinosaurInPaddock (Dinosaur dinosaur){
+
+            if (dinosaur.fed == false) {
+
+                dinosaur.fed = true;
+                String fedDino = dinosaur.name + " has been fed.";
+                System.out.println(fedDino);
+                return fedDino;
+
+            }
+            else {
+                String fullDino = "Dinosaur is already full.";
+                System.out.println(fullDino);
+                return fullDino;
+
+            }
+        }
+
+    public boolean dinosaurHasBeenFed(Dinosaur diplodicus) {
+
+        return diplodicus.fed;
+    }
 }
+

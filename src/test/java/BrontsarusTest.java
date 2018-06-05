@@ -2,20 +2,21 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class DiplodicusTest {
+public class BrontsarusTest {
 
-        Diplodicus diplodicus;
+    Brontosaurus brontosaurus;
+    public BrontsarusTest() {
 
-        public DiplodicusTest(){
-        this.diplodicus = new Diplodicus("Jeff", DietType.HERBIVORE);}
 
-        //The one where a diplodicus is created.
+        this.brontosaurus = new Brontosaurus("Brutus", DietType.HERBIVORE);
+        //The one where a Brontosuarus is created.
         //The one where a specific species of dinosaur is created.
         //The one where a Herbivore type is created.
+    }
         @Test
-        public void canGetName() {
+        public void canGetName(){
 
-            assertEquals("Jeff", diplodicus.getName());
+            assertEquals("Brutus", brontosaurus.getName());
 
         }
 
@@ -23,7 +24,7 @@ public class DiplodicusTest {
         @Test
         public void isAbleToEat(){
 
-            assertEquals(true, diplodicus.feedDinosaur());
+            assertEquals(true, brontosaurus.feedDinosaur());
         }
 
 
@@ -32,9 +33,8 @@ public class DiplodicusTest {
         public void canGetDiet(){
 
 
-            assertEquals(DietType.HERBIVORE, diplodicus.getDietType());
+            assertEquals(DietType.HERBIVORE, brontosaurus.getDietType());
         }
 
     }
-
 

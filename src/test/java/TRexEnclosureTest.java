@@ -43,7 +43,6 @@ public class TRexEnclosureTest {
     @Test
     public void fedDinosaurIsPlacedInPaddock(){
 
-        tRexEnclosure1.addDinosaur(trex1);
         assertEquals(true, tRexEnclosure1.dinosaurHasBeenFed(trex1));
 
     }

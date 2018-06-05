@@ -1,0 +1,51 @@
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
+public class DiplodocusEnclosure {
+
+    Diplodicus diplodicus;
+    DiplodicusEnclosure diplodicusEnclosure;
+
+
+
+    @Before
+    public void before(){
+        diplodicusEnclosure = new DiplodicusEnclosure();
+        diplodicus = new Diplodicus("Bobby", DietType.HERBIVORE);
+        diplodicusEnclosure.feedDinosaurInPaddock(diplodicus);
+
+    }
+
+    //The one where a specific dinosaur can be accessed from paddock then fed.
+
+    @Test
+    public void specificDinosaurHasBeenFed(){
+
+
+        diplodicusEnclosure.feedDinosaurInPaddock(diplodicus);
+        assertEquals(true, diplodicusEnclosure.dinosaurHasBeenFed(diplodicus));
+
+    }
+
+    //The one where confimation that a specific dinosaur has been fed is given.
+    @Test
+    public void userSeesdinosaurHasBeenFed() {
+
+
+        assertEquals("Bobby has been fed.", diplodicusEnclosure.feedDinosaurInPaddock(diplodicus));
+
+    }
+
+    //The one where a specific fed dinosaur is placed back in appropriate paddock
+    @Test
+    public void fedDinosaurIsPlacedInPaddock(){
+
+        diplodicusEnclosure.addDinosaur(diplodicus);
+        assertEquals(true, diplodicusEnclosure.dinosaurHasBeenFed(diplodicus));
+
+    }
+
+
+}
