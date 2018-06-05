@@ -2,16 +2,16 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class DinosaurTest {
+public class TRexTest {
 
     TRex trex;
 
-    public DinosaurTest(){
+    public TRexTest(){
     this.trex = new TRex("Bill", DietType.CARNIVORE);}
 
     //The one where a dinosaur is created.
     //The one where a specific species of dinosaur is created.
-    //The one where a Herbivore type is created.
+    //The one where a CARNIVORE type is created.
     @Test
     public void canGetName() {
 
