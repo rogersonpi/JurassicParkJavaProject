@@ -4,7 +4,6 @@ public abstract class Dinosaur {
     boolean fed;
     DietType diet;
 
-
     public Dinosaur(String name, DietType diet){
 
         this.name = name;

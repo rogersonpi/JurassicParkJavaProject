@@ -1,29 +1,31 @@
 import java.util.ArrayList;
 
-public class DiplodicusEnclosure extends Paddock {
+public class DiplodicusEnclosure extends Paddock implements IRampage{
 
 
     ArrayList<Dinosaur> dinosaurs;
+    boolean dinosaurRampages;
+
 
     public DiplodicusEnclosure() {
         this.dinosaurs = new ArrayList<>();
+
     }
 
+    public void herbivoreRampages(Dinosaur dinosaur) {
+        if (dinosaur.diet == DietType.HERBIVORE){
+        this.dinosaurs.add(dinosaur);}
 
-    public void addDinosaur(Dinosaur dinosaur) {
-
-        this.dinosaurs.add(dinosaur);
-
-
+        else {
+            System.out.println("Dinosaur is rampaging, park is closed");
+            this.dinosaurRampages = true;
+        }
     }
 
     public int getNumberOfDinosaurs() {
         return dinosaurs.size();
 
-
     }
-
-
 
         public String feedDinosaurInPaddock (Dinosaur dinosaur){
 

@@ -71,4 +71,12 @@ public class PaddockTest {
 
     }
 
+    //The one where only like animals can enter paddock
+    @Test
+    public void willOnlyAdmitLikeDinosaurs(){
+
+
+        assertEquals(0, tRexEnclosure.getNumberOfDinosaurs());
+    }
+
 }

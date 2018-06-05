@@ -2,25 +2,20 @@ import java.util.ArrayList;
 
 public class TRexEnclosure extends Paddock {
 
-
-
     ArrayList<Dinosaur> dinosaurs;
 
     public TRexEnclosure() {
         this.dinosaurs = new ArrayList<>();
     }
 
-
     public  void addDinosaur(Dinosaur dinosaur){
 
-
-if (dinosaur.diet == DietType.CARNIVORE)
+        if (dinosaur.diet == DietType.CARNIVORE)
 
         this.dinosaurs.add(dinosaur);
 
     else
         System.out.println("You cannot place veggies with meateaters: they will be gobbled up");
-
 
     }
 

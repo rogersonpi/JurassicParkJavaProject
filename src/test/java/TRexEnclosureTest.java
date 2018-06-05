@@ -5,12 +5,15 @@ import static org.junit.Assert.assertEquals;
 
 public class TRexEnclosureTest {
     TRexEnclosure tRexEnclosure1;
+    TRexEnclosure tRexEnclosure2;
     TRex trex1;
+    Diplodicus diplodicus;
 
     @Before
     public void before(){
-
+        diplodicus = new Diplodicus("Jeff", DietType.HERBIVORE);
         tRexEnclosure1 = new TRexEnclosure();
+        tRexEnclosure2 = new TRexEnclosure();
         trex1 = new TRex ("Bitey", DietType.CARNIVORE);
         tRexEnclosure1.feedDinosaurInPaddock(trex1);
         assertEquals(true, tRexEnclosure1.dinosaurHasBeenFed(trex1));
@@ -44,6 +47,16 @@ public class TRexEnclosureTest {
     public void fedDinosaurIsPlacedInPaddock(){
 
         assertEquals(true, tRexEnclosure1.dinosaurHasBeenFed(trex1));
+
+    }
+
+    //THe one where Herbivores can't be placed with Carnivores
+    @Test
+    public void willNotAdmitHerbivores(){
+
+
+        tRexEnclosure2.addDinosaur(diplodicus);
+        assertEquals(0, tRexEnclosure2.getNumberOfDinosaurs());
 
     }
 

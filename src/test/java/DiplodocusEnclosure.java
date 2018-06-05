@@ -7,6 +7,7 @@ public class DiplodocusEnclosure {
 
     Diplodicus diplodicus;
     DiplodicusEnclosure diplodicusEnclosure;
+    TRex trex;
 
 
 
@@ -15,6 +16,8 @@ public class DiplodocusEnclosure {
         diplodicusEnclosure = new DiplodicusEnclosure();
         diplodicus = new Diplodicus("Bobby", DietType.HERBIVORE);
         diplodicusEnclosure.feedDinosaurInPaddock(diplodicus);
+        trex = new TRex("Rex", DietType.CARNIVORE);
+
 
     }
 
@@ -45,6 +48,14 @@ public class DiplodocusEnclosure {
         diplodicusEnclosure.addDinosaur(diplodicus);
         assertEquals(true, diplodicusEnclosure.dinosaurHasBeenFed(diplodicus));
 
+    }
+
+    //The one where a dinosaur rampages
+    @Test
+    public void aHerbivoreRampagesWhenCarnivoreIsAdded(){
+
+        diplodicusEnclosure.herbivoreRampages(trex);
+        assertEquals(true, diplodicusEnclosure.dinosaurRampages);
     }
 
 

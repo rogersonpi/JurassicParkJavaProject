@@ -7,15 +7,15 @@ public class VeloceraptorEnclosureTest {
 
 
     Veloceraptor veloceraptor;
-    V brontosaurusEnclosure;
+    VeloceraptorEnclosure veloceraptorEnclosure;
 
 
 
     @Before
     public void before(){
-        brontosaurusEnclosure = new BrontosaurusEnclosure();
-        brontosaurus = new Brontosaurus("Bobby", DietType.HERBIVORE);
-        brontosaurusEnclosure.feedDinosaurInPaddock(brontosaurus);
+        veloceraptorEnclosure = new VeloceraptorEnclosure();
+        veloceraptor = new Veloceraptor("Bobby", DietType.HERBIVORE);
+        veloceraptorEnclosure.feedDinosaurInPaddock(veloceraptor);
 
     }
 
@@ -25,8 +25,8 @@ public class VeloceraptorEnclosureTest {
     public void specificDinosaurHasBeenFed(){
 
 
-        brontosaurusEnclosure.feedDinosaurInPaddock(brontosaurus);
-        assertEquals(true, brontosaurusEnclosure.dinosaurHasBeenFed(brontosaurus));
+        veloceraptorEnclosure.feedDinosaurInPaddock(veloceraptor);
+        assertEquals(true, veloceraptorEnclosure.dinosaurHasBeenFed(veloceraptor));
 
     }
 
@@ -35,7 +35,7 @@ public class VeloceraptorEnclosureTest {
     public void userSeesdinosaurHasBeenFed() {
 
 
-        assertEquals("Dinosaur is already full.", brontosaurusEnclosure.feedDinosaurInPaddock(brontosaurus));
+        assertEquals("Dinosaur is already full.", veloceraptorEnclosure.feedDinosaurInPaddock(veloceraptor));
 
     }
 
@@ -43,8 +43,8 @@ public class VeloceraptorEnclosureTest {
     @Test
     public void fedDinosaurIsPlacedInPaddock(){
 
-        brontosaurusEnclosure.addDinosaur(brontosaurus);
-        assertEquals(true, brontosaurusEnclosure.dinosaurHasBeenFed(brontosaurus));
+        veloceraptorEnclosure.addDinosaur(veloceraptor);
+        assertEquals(true, veloceraptorEnclosure.dinosaurHasBeenFed(veloceraptor));
 
     }
 

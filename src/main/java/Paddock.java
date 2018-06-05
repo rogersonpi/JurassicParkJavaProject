@@ -3,17 +3,16 @@ import java.util.ArrayList;
 public abstract class Paddock {
 
     ArrayList<Dinosaur>dinosaur;
+    boolean dinosaurRampages;
 
     public Paddock(){
-
          dinosaur = new ArrayList<>();
+         this.dinosaurRampages = false;
     }
 
     public void addDinosaur(Dinosaur dinosaur){
 
         this.dinosaur.add(dinosaur);
-
-
     }
 
     public int getNumberOfDinosaurs() {
@@ -38,5 +37,4 @@ public abstract class Paddock {
         }
     }
 
-    public abstract boolean dinosaurHasBeenFed(Dinosaur dinosaur);
 }
