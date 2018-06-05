@@ -8,7 +8,6 @@ public abstract class Dinosaur {
     public Dinosaur(String name, DietType diet){
 
         this.name = name;
-        this.fed = fed;
         this.diet = diet;
     }
 
@@ -17,9 +16,10 @@ public abstract class Dinosaur {
     }
 
     public boolean feedDinosaur() {
-        return this.fed = true;
-    }
 
+            return this.fed = true;
+
+    }
     public DietType getDietType() {
 
         return this.diet;

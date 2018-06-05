@@ -6,8 +6,7 @@ public class Runner {
 
         TRexEnclosure kingclosure = new TRexEnclosure();
         kingclosure.addDinosaur(rex);
-
-        kingclosure.findDinosaur(rex);
+        kingclosure.feedDinosaurInPaddock(rex);
 
     }
 }

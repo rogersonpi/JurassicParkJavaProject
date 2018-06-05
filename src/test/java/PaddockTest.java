@@ -59,15 +59,15 @@ public class PaddockTest {
         assertEquals(1,agingTrexEnclosure.getNumberOfDinosaurs());
 
     }
+
+    //The one where a specific dinosaur is accessed from a paddock
     @Test
     public void canAccessDinosaur(){
 
 
-        tRexEnclosure.findDinosaur("Billy");
+        tRexEnclosure.findDinosaur(tRex);
 
-
-
-        assertEquals("Billy", tRexEnclosure.findDinosaur("Billy"));
+        assertEquals("KingBoy", tRexEnclosure.findDinosaur(tRex));
 
     }
 

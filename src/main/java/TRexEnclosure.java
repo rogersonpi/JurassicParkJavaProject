@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 
-public class TRexEnclosure extends Paddock{
+public class TRexEnclosure extends Paddock {
 
     Dinosaur dinoInTransit;
+    Boolean fed;
 
     ArrayList<Dinosaur> dinosaurs;
 
@@ -48,6 +49,28 @@ if (dinosaur.diet == DietType.CARNIVORE)
        //return  this.dinoInTransit = dino;
     }
 
+    public String feedDinosaurInPaddock (Dinosaur dinosaur){
+
+        if (dinosaur.fed == false) {
+
+             dinosaur.fed = true;
+             String fedDino = dinosaur.name + " has been fed.";
+             System.out.println(fedDino);
+             return fedDino;
+
+        }
+        else {
+            String fullDino = "Dinosaur is already full.";
+            System.out.println(fullDino);
+            return fullDino;
+
+        }
+    }
+
+    public boolean dinosaurHasBeenFed (Dinosaur dinosaur){
+
+        return dinosaur.fed;
+    }
 
     }
 
