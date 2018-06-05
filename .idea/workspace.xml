@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fae92eb7-565d-4ddf-8c13-3c78ab354bd6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Diplodicus.class" afterPath="$PROJECT_DIR$/out/production/classes/Diplodicus.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Runner.class" afterPath="$PROJECT_DIR$/out/production/classes/Runner.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/DinosaurTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Diplodicus.java" afterPath="$PROJECT_DIR$/src/main/java/Diplodicus.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DinosaurTest.java" afterPath="$PROJECT_DIR$/src/test/java/TRexTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DiplodicusTest.java" afterPath="$PROJECT_DIR$/src/test/java/DiplodicusTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Veloceraptor.java" afterPath="$PROJECT_DIR$/src/main/java/Veloceraptor.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VeloceraptorTest.java" afterPath="$PROJECT_DIR$/src/test/java/VeloceraptorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -30,8 +25,8 @@
       <file leaf-file-name="TRexTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TRexTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="38" column="1" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="38" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,23 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiplodicusEnclosure.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DiplodicusEnclosure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DiplodicusTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DiplodicusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="495">
               <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,8 +85,20 @@
       <file leaf-file-name="VeloceraptorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/VeloceraptorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+            <state relative-caret-position="600">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Veloceraptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Veloceraptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,8 +107,8 @@
       <file leaf-file-name="TRex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TRex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="180">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="12" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -468,6 +462,8 @@
         <option value="$PROJECT_DIR$/src/test/java/TRexTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Diplodicus.java" />
         <option value="$PROJECT_DIR$/src/test/java/DiplodicusTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Veloceraptor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/VeloceraptorTest.java" />
       </list>
     </option>
   </component>
@@ -557,27 +553,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DiplodicusTest.canGetDiet">
+  <component name="RunManager" selected="JUnit.VeloceraptorTest.canGetDiet">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Runner" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JurassicParkJava_main" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -613,26 +595,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DiplodicusTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="JurassicParkJava_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DiplodicusTest" />
-      <option name="METHOD_NAME" value="canGetName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="DiplodicusTest.isAbleToEat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="JurassicParkJava_test" />
@@ -653,14 +615,54 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TRexTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VeloceraptorTest.canGetDiet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="JurassicParkJava_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TRexTest" />
+      <option name="MAIN_CLASS_NAME" value="VeloceraptorTest" />
+      <option name="METHOD_NAME" value="canGetDiet" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="VeloceraptorTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JurassicParkJava_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VeloceraptorTest" />
       <option name="METHOD_NAME" value="canGetName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="VeloceraptorTest.isAbleToEat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JurassicParkJava_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VeloceraptorTest" />
+      <option name="METHOD_NAME" value="isAbleToEat" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -734,19 +736,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Runner" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DiplodicusTest.canGetName" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TRexTest.canGetName" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DiplodicusTest.isAbleToEat" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DiplodicusTest.canGetDiet" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DiplodicusTest.isAbleToEat" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DiplodicusTest.canGetDiet" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.VeloceraptorTest.canGetName" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.VeloceraptorTest.isAbleToEat" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.VeloceraptorTest.canGetDiet" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DiplodicusTest.canGetDiet" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DiplodicusTest.isAbleToEat" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DiplodicusTest.canGetName" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TRexTest.canGetName" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Runner" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.VeloceraptorTest.canGetDiet" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.VeloceraptorTest.isAbleToEat" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.VeloceraptorTest.canGetName" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DiplodicusTest.canGetDiet" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DiplodicusTest.isAbleToEat" />
       </list>
     </recent_temporary>
   </component>
@@ -779,15 +781,6 @@
     <history-entry file="DiplodicusTest_isAbleToEat - 2018.06.05 at 10h 22m 10s.xml">
       <configuration name="DiplodicusTest.isAbleToEat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TRexEnclosureTest_dinosaurCanBeFed - 2018.06.05 at 09h 42m 47s.xml">
-      <configuration name="TRexEnclosureTest.dinosaurCanBeFed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TRexEnclosureTest_dinosaurCanBeFed - 2018.06.05 at 09h 45m 38s.xml">
-      <configuration name="TRexEnclosureTest.dinosaurCanBeFed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TRexEnclosureTest_dinosaurCanBeFed - 2018.06.05 at 09h 45m 55s.xml">
-      <configuration name="TRexEnclosureTest.dinosaurCanBeFed" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TRexEnclosureTest_fedDinosaurIsPlacedInPaddock - 2018.06.05 at 10h 01m 56s.xml">
       <configuration name="TRexEnclosureTest.fedDinosaurIsPlacedInPaddock" configurationId="JUnit" />
     </history-entry>
@@ -796,6 +789,15 @@
     </history-entry>
     <history-entry file="TRexEnclosureTest_specificDinosaurHasBeenFed - 2018.06.05 at 09h 53m 21s.xml">
       <configuration name="TRexEnclosureTest.specificDinosaurHasBeenFed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VeloceraptorTest_canGetDiet - 2018.06.05 at 10h 28m 22s.xml">
+      <configuration name="VeloceraptorTest.canGetDiet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VeloceraptorTest_canGetName - 2018.06.05 at 10h 28m 12s.xml">
+      <configuration name="VeloceraptorTest.canGetName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VeloceraptorTest_isAbleToEat - 2018.06.05 at 10h 28m 15s.xml">
+      <configuration name="VeloceraptorTest.isAbleToEat" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -958,14 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Veloceraptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="true" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Park.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1061,16 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="941">
-          <caret line="69" column="8" lean-forward="false" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -1079,14 +1063,6 @@
             <element signature="e#226#227#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TRex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,18 +1076,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TRexTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="38" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TRex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Veloceraptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DiplodicusTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="495">
           <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="941">
+          <caret line="69" column="8" lean-forward="false" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1120,9 +1122,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/VeloceraptorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="600">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
