@@ -9,15 +9,12 @@ public class VeloceraptorEnclosureTest {
     Veloceraptor veloceraptor;
     VeloceraptorEnclosure veloceraptorEnclosure;
 
-
-
     @Before
     public void before(){
         veloceraptorEnclosure = new VeloceraptorEnclosure();
         veloceraptor = new Veloceraptor("Bobby", DietType.HERBIVORE);
         veloceraptorEnclosure.feedDinosaurInPaddock(veloceraptor);
-
-    }
+        }
 
     //The one where a specific dinosaur can be accessed from paddock then fed.
 
@@ -27,8 +24,7 @@ public class VeloceraptorEnclosureTest {
 
         veloceraptorEnclosure.feedDinosaurInPaddock(veloceraptor);
         assertEquals(true, veloceraptorEnclosure.dinosaurHasBeenFed(veloceraptor));
-
-    }
+        }
 
     //The one where confimation that a specific dinosaur has been fed is given.
     @Test

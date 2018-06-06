@@ -10,15 +10,12 @@ public class DiplodocusEnclosure {
     TRex trex;
 
 
-
     @Before
     public void before(){
         diplodicusEnclosure = new DiplodicusEnclosure();
         diplodicus = new Diplodicus("Bobby", DietType.HERBIVORE);
         diplodicusEnclosure.feedDinosaurInPaddock(diplodicus);
         trex = new TRex("Rex", DietType.CARNIVORE);
-
-
     }
 
     //The one where a specific dinosaur can be accessed from paddock then fed.

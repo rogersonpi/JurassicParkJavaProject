@@ -50,10 +50,9 @@ public class TRexEnclosureTest {
 
     }
 
-    //THe one where Herbivores can't be placed with Carnivores
+    //The one where Herbivores can't be placed with Carnivores
     @Test
     public void willNotAdmitHerbivores(){
-
 
         tRexEnclosure2.addDinosaur(diplodicus);
         assertEquals(0, tRexEnclosure2.getNumberOfDinosaurs());

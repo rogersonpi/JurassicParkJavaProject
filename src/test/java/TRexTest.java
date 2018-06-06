@@ -25,7 +25,6 @@ public class TRexTest {
         assertEquals(true, trex.feedDinosaur());
     }
 
-
     //t is possible to get enum type from instance of a dinosaur
     @Test
     public void canGetDiet(){

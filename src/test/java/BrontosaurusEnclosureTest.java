@@ -8,14 +8,11 @@ public class BrontosaurusEnclosureTest {
     Brontosaurus brontosaurus;
     BrontosaurusEnclosure brontosaurusEnclosure;
 
-
-
     @Before
     public void before(){
         brontosaurusEnclosure = new BrontosaurusEnclosure();
         brontosaurus = new Brontosaurus("Bobby", DietType.HERBIVORE);
         brontosaurusEnclosure.feedDinosaurInPaddock(brontosaurus);
-
     }
 
     //The one where a specific dinosaur can be accessed from paddock then fed.
@@ -23,10 +20,8 @@ public class BrontosaurusEnclosureTest {
     @Test
     public void specificDinosaurHasBeenFed(){
 
-
         brontosaurusEnclosure.feedDinosaurInPaddock(brontosaurus);
         assertEquals(true, brontosaurusEnclosure.dinosaurHasBeenFed(brontosaurus));
-
     }
 
     //The one where confimation that a specific dinosaur has been fed is given.

@@ -13,13 +13,11 @@ public class PaddockTest {
     @Before
     public void before(){
 
-
         ////The one where a paddock is created.
         //    //*Given there is a paddock class
         //    //*And with a paddock identifier
         //    //*When a new paddock is needed
         //    //*Then a paddock with the appropriate values can be created
-
 
         tRex = new TRex("KingBoy", DietType.CARNIVORE);
         tRex2 = new TRex("Billy", DietType.CARNIVORE);
@@ -74,7 +72,6 @@ public class PaddockTest {
     //The one where only like animals can enter paddock
     @Test
     public void willOnlyAdmitLikeDinosaurs(){
-
 
         assertEquals(0, tRexEnclosure.getNumberOfDinosaurs());
     }
