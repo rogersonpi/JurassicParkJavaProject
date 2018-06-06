@@ -8,7 +8,7 @@ public class Park extends Paddock {
     Dinosaur dinosaur;
     ArrayList<Visitor> visitors;
     int numberOfVisitors;
-    boolean parkOpen;
+    boolean parkOpen = true;
     Paddock paddock;
     Paddock retrievedPaddock;
 
@@ -22,16 +22,9 @@ public class Park extends Paddock {
     }
 
     public void addHerbivorePaddock(Paddock paddock) {
-
-        if (!paddock.dinosaurRampages) {
-
             herbivores.add(paddock);
 
-        } else {
-            this.parkOpen = false;
         }
-
-    }
 
     public int numberOfPaddocks() {
 
@@ -40,6 +33,8 @@ public class Park extends Paddock {
 
     public int getNumberOfVisitors() {
 
+
+        System.out.println("There are " + visitors.size() + "visitors");
         return visitors.size();
     }
 
@@ -65,34 +60,36 @@ public class Park extends Paddock {
 
             if (retrievedPaddock == paddock && dinosaur.diet == DietType.HERBIVORE) {
                 retrievedPaddock.addDinosaur(dinosaur);
-
-            } else
-                System.out.println("Dinsosaur is Rampaging");
-            this.parkOpen = false;
+                break;
+            }
+            else
+            {System.out.println("Dinsosaur is Rampaging");
+                this.parkOpen = false;}
         }
     }
 
 
-        public void addDinosaurToCarnivorePaddock(Dinosaur dinosaur, Paddock paddock){
+    public void addDinosaurToCarnivorePaddock(Dinosaur dinosaur, Paddock paddock) {
 
-            for (int i = 0; i < carnivores.size(); i++) {
+        for (int i = 0; i < carnivores.size(); i++) {
 
-                Paddock result = carnivores.get(i);
-                retrievedPaddock = result;
+            Paddock result = carnivores.get(i);
+            retrievedPaddock = result;
 
-                if (retrievedPaddock == paddock && dinosaur.diet == DietType.CARNIVORE){
-                    retrievedPaddock.addDinosaur(dinosaur);
+            if (retrievedPaddock == paddock && dinosaur.diet == DietType.CARNIVORE) {
+                retrievedPaddock.addDinosaur(dinosaur);
+                break;
 
-                }
-
-                else
-                    System.out.println ("Dinsosaur is Rampaging");
+            } else {
+                System.out.println("Dinsosaur is Rampaging");
                 this.parkOpen = false;
             }
-
         }
 
     }
+}
+
+
 
 
 

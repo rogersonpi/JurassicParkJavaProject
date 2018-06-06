@@ -27,6 +27,16 @@ public class DiplodicusEnclosure extends Paddock implements IRampage{
 
     }
 
+    public  void addDinosaur(Dinosaur dinosaur){
+
+        if (dinosaur.diet == DietType.HERBIVORE)
+
+            this.dinosaurs.add(dinosaur);
+
+        else
+            System.out.println("You cannot place veggies with meateaters: they will be gobbled up");
+
+    }
         public String feedDinosaurInPaddock (Dinosaur dinosaur){
 
             if (dinosaur.fed == false) {

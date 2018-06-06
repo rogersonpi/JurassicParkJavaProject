@@ -9,7 +9,7 @@ public class ParkTest {
 
     Park park;
     Paddock trexEnclosure;
-    Visitor visitor;
+    Visitor visitor, visitor2, visitor3;
     DiplodicusEnclosure diplodicusEnclosure;
     Diplodicus diplodicus;
     TRex tRex;
@@ -21,8 +21,9 @@ public class ParkTest {
         diplodicus = new Diplodicus("bill", DietType.HERBIVORE);
         park = new Park();
         visitor = new Visitor("Jeff Goldblum");
+        visitor2 = new Visitor("Sam Niel");
+        visitor3= new Visitor("Laura Dern");
         diplodicusEnclosure = new DiplodicusEnclosure();
-        diplodicusEnclosure.herbivoreRampages(tRex);
         trexEnclosure = new TRexEnclosure();
     }
 
@@ -83,20 +84,49 @@ public class ParkTest {
     }
 
     @Test
-    //The one where the park class adds a dinosaur to an existing carnivore paddock
-    public void canAddDinosaurToHerbivorePaddock() {
+    //The one where a herbivore is added to the herbivore enclosure
+    public void canAddHerbivoreToHerbivorePaddock(){
+
+        park.addHerbivorePaddock(diplodicusEnclosure);
+        park.addDinosaurToHerbivorePaddock(diplodicus,diplodicusEnclosure);
+        assertEquals(diplodicusEnclosure, park.retrievedPaddock);
+        assertEquals(1, diplodicusEnclosure.getNumberOfDinosaurs());
+    }
+
+
+    @Test
+//    //Adding Carnivore to Herbivore enclosure results in rampage.
+    public void carnivoreInHerbivoreCausesRampage() {
 
 
         park.addHerbivorePaddock(diplodicusEnclosure);
-        park.addDinosaurToHerbivorePaddock(diplodicus, diplodicusEnclosure);
+        park.addDinosaurToHerbivorePaddock(tRex, diplodicusEnclosure);
         assertEquals(diplodicusEnclosure, park.retrievedPaddock);
-        assertEquals(1, diplodicusEnclosure.getNumberOfDinosaurs());
+        assertEquals(0, diplodicusEnclosure.getNumberOfDinosaurs());
+    }
 
+//    //Adding Herbivore to Carnivore enclosure results in rampage
+    @Test
+
+    public void herbivoreInCarnivorePaddockCausesRampage() {
+
+
+    park.addCarnivorePaddock(trexEnclosure);
+    park.addDinosaurToCarnivorePaddock(diplodicus, trexEnclosure);
+    assertEquals(trexEnclosure, park.retrievedPaddock);
+    assertEquals(0, trexEnclosure.getNumberOfDinosaurs());
+
+}
+    @Test
+    public void canGetNumberOfVisitors(){
+
+        park.addVisitor(visitor);
+        park.addVisitor(visitor2);
+        park.addVisitor(visitor3);
+        assertEquals(3, park.getNumberOfVisitors());
     }
 }
 
-//    @Test
-//    //Adding Herbivore to Carnivore enclosure results in rampage
 //
 //
 //

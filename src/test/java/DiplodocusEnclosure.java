@@ -46,6 +46,12 @@ public class DiplodocusEnclosure {
         assertEquals(true, diplodicusEnclosure.dinosaurHasBeenFed(diplodicus));
 
     }
+    @Test
+    public void dinosaurIsAdded(){
+
+        diplodicusEnclosure.addDinosaur(diplodicus);
+        assertEquals(1, diplodicusEnclosure.getNumberOfDinosaurs());
+    }
 
     //The one where a dinosaur rampages
     @Test
