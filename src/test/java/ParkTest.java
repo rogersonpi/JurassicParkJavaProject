@@ -125,9 +125,18 @@ public class ParkTest {
         park.addVisitor(visitor3);
         assertEquals(3, park.getNumberOfVisitors());
     }
-}
 
-//
+    @Test
+    public void herbivoreInCarnivorePaddockClosedPark() {
+
+
+    park.addCarnivorePaddock(trexEnclosure);
+    park.addDinosaurToCarnivorePaddock(diplodicus, trexEnclosure);
+    assertEquals(false, park.parkOpen);
+
+
+    }
+}
 //
 //
 //
