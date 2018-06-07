@@ -73,7 +73,9 @@ public class PaddockTest {
     @Test
     public void willOnlyAdmitLikeDinosaurs(){
 
-        assertEquals(0, tRexEnclosure.getNumberOfDinosaurs());
+        assertEquals(4, tRexEnclosure.getNumberOfDinosaurs());
+        tRexEnclosure.addDinosaur(new Diplodicus("Bobby", DietType.HERBIVORE));
+        assertEquals(4, tRexEnclosure.getNumberOfDinosaurs());
     }
 
 }

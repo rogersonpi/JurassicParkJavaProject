@@ -51,7 +51,7 @@ public class ParkTest {
     public void dinosaurRampages() {
         diplodicusEnclosure.herbivoreRampages(tRex);
         park.addHerbivorePaddock(diplodicusEnclosure);
-        assertEquals(false, park.parkOpen);
+        assertEquals(false , park.parkOpen);
     }
 
     @Test

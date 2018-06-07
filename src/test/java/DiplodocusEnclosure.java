@@ -34,7 +34,7 @@ public class DiplodocusEnclosure {
     public void userSeesdinosaurHasBeenFed() {
 
 
-        assertEquals("Bobby has been fed.", diplodicusEnclosure.feedDinosaurInPaddock(diplodicus));
+        assertEquals("Dinosaur is already full.", diplodicusEnclosure.feedDinosaurInPaddock(diplodicus));
 
     }
 

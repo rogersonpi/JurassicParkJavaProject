@@ -35,6 +35,15 @@ public class TRexEnclosure extends Paddock {
 
     }
 
+//    public Dinosaur returnDinosaur(Dinosaur dinosaur) {
+//
+//        if (dinosaurs.contains(dinosaur))
+//            return dinosaur;}
+//
+//
+//
+//    }
+
     public void removeDinosaur(Dinosaur dino){
 
 
